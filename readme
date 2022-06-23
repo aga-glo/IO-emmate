@@ -1,0 +1,5 @@
+EM MATE 
+
+Jest to aplikacja, która przy pomocy API pobiera dane o kursach kilku kryptowalut.
+Pozwala się zalogować i każdemu userowi wyświetla dane o statusie jego portfela na podstawie aktualnych kursów.
+Została napisana przy użyciu PHP, HTML, CSS, aby uruchomić aplikację należy pobrać wszytskie pliki i otworzyć lokalnie.
