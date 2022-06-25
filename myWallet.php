@@ -108,7 +108,6 @@ $curl = curl_init();
 			<section class="leftPanel">
 				<nav>
 					<ul>
-					<input type="text" id="search" placeholder="Search...">
 					<li><a href="myWallet.php" >MY WALLET </a></li>
 					<li><a href="transactions.php">TRANSACTIONS </a></li>
 					<li><a href="market.php">MARKET</a></li>					
@@ -122,19 +121,51 @@ $curl = curl_init();
 				<div class="socialInfo"><h4>YOUR WALLET</h4><br>
 					</div>
 					<div class="moneyStatus">
-						BITCOIN: <?php echo ($userCoins[0]['quantity'])*$btcPrice;?>
-						<br>
-						DASH: <?php echo ($userCoins[1]['quantity'])*$dashPrice;?>
-						<br>
-						POLKADOT: <?php echo ($userCoins[2]['quantity'])*$polkaPrice;?>
-						<br>
-						DAI: <?php echo ($userCoins[3]['quantity'])*$daiPrice;?>
-						<br>
-						EOS: <?php echo ($userCoins[4]['quantity'])*$eosPrice;?>
-						<br>
+
 					
+					<table class="moneyStat">
+						<tr>
+							<th>TYPE</th>
+							<th>AMOUNT</th>
+						</tr>
+						<tr>
+							<td>BITCOIN</td>
+							<td><?php echo ($userCoins[0]['quantity'])*$btcPrice;?></td>
+							
+						</tr>
+						<tr>
+							<td>DASH</td>
+							<td><?php echo ($userCoins[1]['quantity'])*$dashPrice;?></td>
+							
+						</tr>
+						</tr><tr>
+							<td>EOS</td>
+							<td><?php echo ($userCoins[4]['quantity'])*$eosPrice;?></td>
+							
+						</tr><tr>
+							<td>POLKADOT</td>
+							<td><?php echo ($userCoins[1]['quantity'])*$dashPrice;?></td>
+							
+						</tr>
+						</tr>
+						</table>
+
+						
 						</div>
-					
+						
+						</div>
+						<div class btcStyle>
+						<div class="btcwdgt-chart" bw-cash="true" bw-noshadow="true"></div>
+						<script>
+  (function(b,i,t,C,O,I,N) {
+    window.addEventListener('load',function() {
+      if(b.getElementById(C))return;
+      I=b.createElement(i),N=b.getElementsByTagName(i)[0];
+      I.src=t;I.id=C;N.parentNode.insertBefore(I, N);
+    },false)
+  })(document,'script','https://widgets.bitcoin.com/widget.js','btcwdgt');
+</script>
+</div>
 				
 			</section>
 			</div>
