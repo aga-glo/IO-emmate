@@ -1,7 +1,14 @@
 * {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+ 
+}
+
+.coin-marquee-header {
+
+  display: none;
+}
+
+.coin-marquee-container {
+  width: 100% !important;
 }
 
 html {
@@ -55,7 +62,7 @@ textarea:focus, input:focus{
     outline: none;
 }
 
-input#username{
+input#login{
  text-transform: uppercase;
  border: none; 
  background-color: transparent;
@@ -101,7 +108,11 @@ h2 {
   color: white;  
   margin-left: 5%;
   }
+  li{
+    list-style-type:none;
+  }
   li a {
+list-style-type:none;
 display: flex;
 width: 200px;
 text-align: center;
@@ -117,12 +128,14 @@ margin: 50px 0px 20px 20px;
   }
 
 li a:hover {
+  list-style-type:none;
 color: white;
 background: rgba(112, 86, 130, 0.747);
 border: 2px solid #2c2c2c;
 }
 
 li a:active {
+  list-style-type:none;
 color: white;
 background: rgba(112, 86, 130, 0.747);
 border: 2px solid #2c2c2c;
@@ -160,20 +173,23 @@ border-bottom: 1px solid #707070;
 .rightPanel{
     
     position: fixed;
-    margin-left: 20%;
+    margin-left: 25%;
     padding-left: 20px;
     height: 100%;
     width:80%;
-    background-color: #151721
+    background-color: #151721;
+    margin-top: -5%;
 
 }
 .rightPanel span {
   font-size: 20px;
 }
+.btcStyle{
+  margin: 10px 20%;
+}
 
 .socialInfo{
-    padding-top: 20px;
-    padding-bottom: 50px;
+    
     font-size: 20px;
 }
 .socialInfo a{
@@ -183,6 +199,7 @@ border-bottom: 1px solid #707070;
 
 h4 {
   font-size: 30px;
+  margin: 15px;
 }
 .pictureTwitter img{
   height: 250px;
@@ -242,7 +259,7 @@ h4 {
 }
 
 table {
-  width: 100%;
+  width: 90%;
   border-collapse: collapse;
   
 }
@@ -364,161 +381,3 @@ table {
 
 
 
-///RWD
-@media(orientation: landscape){
-  @media (max-width: 768px) {
-       
-  }
-}
-
-@media(max-width: 320px) {
-  *{
-    box-sizing: content-box;
-  }
-  
-  .leftPanel {
-    width: 20%;
-    height: 100%;
-    position: relative;
-    display: flex;
-    align-items: center;
-  }
-  .rightPanel{
-    position: relative;
-    width: 100%;
-    margin-left: 0px;
-    padding-bottom: 20px;
-    padding-left: 5px;
-  }
-  .socialInfo{
-    text-align: center;
-    width: 95%;
-
-  }
-  h4 {
-    text-align: center;
-  }
-  input[type="submit"] {
-    width: 150px;
-    height: 50px;
-    padding: 0px;
-    margin: 10px  50px 50px;
-    margin-left: 0px;
-    
-  }
-  .loginPanel {
-    position: fixed;
-    text-align: center;
-    top: 50%;
-    left: 0px;
-    margin: 20px;
-    width: 250px;
-    height: 200px;
-    background-color: ghostwhite;
-  }
-label {
-    width: 150px;
-    }
-}
-@media(max-width: 480px) {
-   *{
-    box-sizing: content-box;
-  }
-  li a{
-    margin: 10%;
-    margin-left: 30%;
-  }
-  .transTable{
-    text-align: center;
-  }
-  .leftPanel {
-    width: 20%;
-    height: 100%;
-    position: relative;
-    display: flex;
-    align-items: center;
-  }
-  .rightPanel{
-    position: relative;
-    width: 100%;
-    margin-left: 0px;
-    padding-bottom: 20px;
-    padding-left: 5px;
-  }
-  .socialInfo{
-    text-align: center;
-    width: 95%;
-
-  }
-  h4 {
-    text-align: center;
-  }
-  input[type="submit"] {
-    width: 150px;
-    height: 50px;
-    padding: 0px;
-    margin: 10px  50px 50px;
-    margin-left: 0px;
-    
-  }
-  .loginPanel {
-    position: fixed;
-    text-align: center;
-    top: 50%;
-    left: 0px;
-    margin: 20px;
-    width: 250px;
-    height: 200px;
-    background-color: ghostwhite;
-}
-label {
-    width: 150px;
-    }
-}
-
-
-
-
-//psuje sie ponizej
-@media(max-width: 600px) {
-  
-  .rightPanel {
-   width: 60%;
-    margin-left: 40%;
-  }
-  .moneyStatus {
-    text-align: left;
-  }
-
-
-
-
-}
-@media (max-width: 768px) {
- 
-  .rightPanel {
-   width: 60%;
-    margin-left: 40%;
-  }
-  .moneyStatus {
-    text-align: left;
-  }
-
-
-}
-
-@media (max-width: 900px) {
-
-  .rightPanel {
-   width: 65%;
-    margin-left: 35%;
-  }
-
-}
-@media (max-width: 1200px) {
-  
-  .rightPanel {
-   width: 75%;
-    margin-left: 25%;
-  }
-}
