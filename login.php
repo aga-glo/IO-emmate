@@ -26,7 +26,7 @@ else
 
    
     //if (!$mysqli -> query("INSERT INTO Persons (FirstName) VALUES ('Glenn')")) {
-    //echo("Error description: " . $mysqli -> error);
+    //echo("Error description: " . $mysqli -> error); kom do delete
     ///}
 
 
