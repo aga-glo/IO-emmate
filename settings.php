@@ -40,7 +40,7 @@
 </div>
 <button class="button-320" role="button">UPGRADE YOUR PLAN</button>
 <button class="button-30" role="button">MANAGE YOUR PROFILE</button>
-<button class="button-30" role="button">GENERATE REPORT</button>			
+<button class="button-30" role="button">CHANGE PASSWORD</button>			
 
 </section>
 
