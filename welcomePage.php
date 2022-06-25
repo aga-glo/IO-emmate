@@ -45,13 +45,12 @@ require_once('disconnect-user.php');
 					<span>1 CFD Broker (Investment Trends 2020). 72% of retail lose money. New to Trading? Start trading with no risk with our free demo account. Live Quotes. Listed on the LSE. Trading is 1 Click away.</span>
 					</div>
 					<h4>TWITTER NEWS</h4>
-					<div class="pictureTwitter">
-						<img src="https://user-images.githubusercontent.com/56108700/174784103-88544547-b718-4c12-9a8f-c27ec5ccb09a.png">
-						<img src="https://user-images.githubusercontent.com/56108700/174784437-0f92a80a-5334-4a87-a323-30299a481ea8.png">
-						<img src="https://user-images.githubusercontent.com/56108700/174784658-4a7113c7-aa11-48ba-abff-5942a73eb0e6.png">
-						
-					</div>
-					<h4>CONTACT US!</h4><span>Trying to expand? See what paid plans have to offer or contact us regarding enterprise solutions.Please send us info here: info@em-mate.com</span>
+					<a class="twitter-timeline" data-width="300" data-height="200" data-theme="dark" href="https://twitter.com/Bitcoin?ref_src=twsrc%5Etfw">Tweets by Bitcoin</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+					<a class="twitter-timeline" data-width="300" data-height="200" data-theme="dark" href="https://twitter.com/elonmusk?ref_src=twsrc%5Etfw">Tweets by elonmusk</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+					<a class="twitter-timeline" data-width="300" data-height="200" data-theme="dark" href="https://twitter.com/dogecoin?ref_src=twsrc%5Etfw">Tweets by dogecoin</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+					<h4>CONTACT US!</h4><span>Trying to expand? See what paid plans have to offer or contact us regarding enterprise solutions.</span>
+					<br>
+					<span>info@em-mate.com</span>
 					<br>
 				
 			</section>
