@@ -76,7 +76,7 @@ require_once('disconnect-user.php');
 			<section class="leftPanel">
 				<nav>
 					<ul>
-					<input type="text" id="search" placeholder="Search...">
+					
 					<li><a href="myWallet.php" >MY WALLET</a></li>
 					<li><a href="transactions.php">TRANSACTIONS</a></li>
 					<li><a href="market.php">MARKET</a></li>					
@@ -130,14 +130,15 @@ require_once('disconnect-user.php');
 						</tr>
 						</table>
 
-						<div class="stockImage"> 
-						<img src="https://user-images.githubusercontent.com/56108700/174786605-a146782a-99de-4aac-a51a-a4db4c43426d.png">
-						</div>
+						
 						</div>
 
-					
-				
+						<script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/coinMarquee.js"></script><div id="coinmarketcap-widget-marquee" coins="1,3717,1831,3602,1027" currency="USD" theme="dark" transparent="true" show-symbol-logo="true"></div>
 			</section>
+
+
+
+			
 			</div>
 		</main>
 
