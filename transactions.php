@@ -43,111 +43,155 @@
 <table>
   <tr>
     <th>Target</th>
+    <th>Type</th>
+    <th>Quantity</th>
     <th>Date</th>
     <th>Price</th>
   </tr>
   <tr>
     <td>Bitcoin</td>
+    <td>buy</td>
+    <td>3</td>
     <td>22.05.2022</td>
     <td>1.00345$</td>
   </tr>
   <tr>
     <td>DASH</td>
+    <td>buy</td>
+    <td>0.9993</td>
     <td>18.05.2022</td>
     <td>20.954$</td>
   </tr>
    <tr>
     <td>Bitcoin LITE</td>
+    <td>sell</td>
+    <td>22</td>
     <td>18.05.2021</td>
     <td>174.00395$</td>
   </tr>
    <tr>
     <td>Bitcoin</td>
+    <td>buy</td>
+    <td>0.2321</td>
     <td>10.05.2022</td>
     <td>99.00345$</td>
   </tr>
    <tr>
     <td>EOS</td>
+    <td>buy</td>
+    <td>1289</td>
     <td>10.06.2022</td>
     <td>19.02$</td>
   </tr>
   <tr>
     <td>Moonsafe</td>
+    <td>sell</td>
+    <td>324</td>
     <td>9.05.2022</td>
     <td>189.9775$</td>
   </tr>
    <tr>
     <td>Polkadot</td>
+    <td>buy</td>
+    <td>12</td>
     <td>9.05.2022</td>
     <td>1.3577$</td>
   </tr>
   <tr>
     <td>Polkadot</td>
+    <td>sell</td>
+    <td>23</td>
     <td>19.05.2022</td>
     <td>129.001$</td>
   </tr>
   <tr>
     <td>Polkadot</td>
+    <td>sell</td>
+    <td>21</td>
     <td>12.05.2022</td>
     <td>22.664$</td>
   </tr>
   <tr>
     <td>Moonsafe</td>
+    <td>buy</td>
+    <td>2</td>
     <td>6.05.2022</td>
     <td>201.125$</td>
   </tr>
   <tr>
     <td>Polkadot</td>
+    <td>buy</td>
+    <td>.003</td>
     <td>9.05.2022</td>
     <td>13.45$</td>
   </tr>
   <tr>
     <td>Moonsafe</td>
+    <td>buy</td>
+    <td>19</td>
     <td>9.05.2022</td>
     <td>20.9555$</td>
   </tr>
    <tr>
     <td>Bitcoin</td>
+    <td>sell</td>
+    <td>0.33746</td>
     <td>8.05.2022</td>
     <td>1595.05$</td>
   </tr>
   <tr>
     <td>DASH</td>
+    <td>buy</td>
+    <td>1</td>
     <td>7.05.2022</td>
     <td>1344.5$</td>
   </tr>
   <tr>
     <td>EOS</td>
+    <td>buy</td>
+    <td>3</td>
     <td>10.06.2022</td>
     <td>190.02$</td>
   </tr><tr>
     <td>EOS</td>
+    <td>sell</td>
+    <td>73</td>
     <td>10.06.2022</td>
     <td>122.03$</td>
   </tr>
   <tr>
     <td>Bitcoin</td>
+    <td>buy</td>
+    <td>90</td>
     <td>22.06.2022</td>
     <td>1.0023$</td>
   </tr>
   <tr>
     <td>Bitcoin</td>
+    <td>buy</td>
+    <td>33</td>
     <td>19.05.2022</td>
     <td>1.033345$</td>
   </tr>
   <tr>
     <td>EOS</td>
+    <td>buy</td>
+    <td>383</td>
     <td>10.06.2022</td>
     <td>19.02$</td>
   </tr>
 
   <tr>
     <td>Moonsafe</td>
+    <td>sell</td>
+    <td>23</td>
     <td>6.05.2022</td>
     <td>20.05$</td>
   </tr>
    <tr>
     <td>Bitcoin LITE</td>
+    <td>buy</td>
+    <td>299</td>
     <td>6.05.2022</td>
     <td>155.01$</td>
   </tr>
